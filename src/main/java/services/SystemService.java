@@ -160,6 +160,7 @@ public interface SystemService {
     @Service GroupsService groups();
     @Service HostsService hosts();
     @Service IconsService icons();
+    @Service LukeExamplesService lukeExamples();
     @Service InstanceTypesService instanceTypes();
 
     /**
